@@ -109,6 +109,7 @@ y.text{
     width: 60%;
     display: flex;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .wrap2{
@@ -116,6 +117,7 @@ y.text{
     justify-content: center;
     margin: 20px;
     flex-direction: column;
+    width: auto;
 }
 
 iframe{
