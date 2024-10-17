@@ -1,2 +1,2 @@
-Portfólio de Edição de Vídeo :0
+Portfólio de Edição de Vídeo
 https://aaberey.github.io/portfolio/
