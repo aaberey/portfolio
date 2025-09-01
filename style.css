@@ -48,8 +48,23 @@ div{
     padding-bottom: 20px;
 }
 
+/* Essa é a regra padrão, que vai funcionar em QUALQUER celular */
 img {
   width: 100%;
+}
+
+/* Para tablets e laptops pequenos */
+@media screen and (min-width: 769px) {
+img {
+    width: 60%;
+  }
+}
+
+/* Para desktops e telas grandes */
+@media screen and (min-width: 1025px) {
+img {
+    width: 40%;
+  }
 }
 
 body{
@@ -174,5 +189,6 @@ iframe:hover{
     50%{ transform: translate(1px, 5px) rotate(0deg); }
     100%{ transform: translate(1px, -5px) rotate(0deg); }
 }
+
 
 
