@@ -48,6 +48,10 @@ div{
     padding-bottom: 20px;
 }
 
+img {
+  width: 100%;
+}
+
 body{
     background: black;
     display: flex;
@@ -170,4 +174,5 @@ iframe:hover{
     50%{ transform: translate(1px, 5px) rotate(0deg); }
     100%{ transform: translate(1px, -5px) rotate(0deg); }
 }
+
 
