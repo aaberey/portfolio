@@ -40,7 +40,7 @@
 }
 
 div{
-    width: 40%;
+    width: 100%;
     display: flex;
     gap: 15px;
     justify-content: center;
@@ -170,3 +170,4 @@ iframe:hover{
     50%{ transform: translate(1px, 5px) rotate(0deg); }
     100%{ transform: translate(1px, -5px) rotate(0deg); }
 }
+
