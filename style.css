@@ -67,6 +67,11 @@ img {
   }
 }
 
+/*esconder scrollbar*/
+body {
+  overflow: hidden;
+}
+
 body{
     background: black;
     display: flex;
@@ -189,6 +194,7 @@ iframe:hover{
     50%{ transform: translate(1px, 5px) rotate(0deg); }
     100%{ transform: translate(1px, -5px) rotate(0deg); }
 }
+
 
 
 
